@@ -1,21 +1,29 @@
-Group Members:
+## Group Members:
 
 Andry Nasief
 Austin Peterson
 Aidan Fisher
 
-Project Idea:
-Resume Builder...
-- Website asks user to input information
-- Website stores all information
-  ...meaning: name, schools, skills, experience, certifications, accomplishments, projects, etc.
-- It uses info to build a resume for the User
-- User can have multiple resume versions stores on their account
+## Project Idea:
+### Resume Builder...
+- Website asks user to input information (stores as text) into different categorical "bins," 
+  with the option of adding as many as possible / none at all.
+- Each bin stores all information about:
+    Personal Info 
+    Education
+    Skills
+    Experience
+    Certifications
+    Accomplishments/Projects
+    etc...
+- Later we can use the info from each bin to build a resume for the User
+- User can have multiple resume versions stored on their account (named resumes)
 - Website can export resume as a PDF
 
+### Pages:
+  - Login / Register
+  - Account (List of stored resumes)
+  - Create Resume / Add to info "bins"
 
-# Proposal (due 9/18 by end of day) 
-Provide an outline of your project direction and the names of associated team members. 
-The outline should have enough detail so that staff can determine if it meets the minimum expectations, or if it goes too far to be reasonable by the deadline. Please include a general description of a project, and list of key technologies/libraries you plan on using (e.g. React, Three.js, Svelte, TypeScript etc.). Two to four paragraphs should provide enough level of detail. Name the file proposal.md and submit a pull request by Friday, September 18th at 11:59 PM (end of day). *Only one pull request is required per team*.
-
-You will be given some class time to work on your proposal, but please plan on reserving additional time outside of class as needed. There are no other scheduled checkpoints for your project besides the final submission. 
+### List of key technologies/libraries:
+- React, Javascript, jsPDF library, Mongodb (account storage too), CSS-in-JS
